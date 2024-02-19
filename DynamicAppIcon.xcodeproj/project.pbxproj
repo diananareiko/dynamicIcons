@@ -7,15 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9565AC102B83BB3400B59F28 /* IconName3@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9565AC0D2B83BB3400B59F28 /* IconName3@3x.png */; };
+		9565AC112B83BB3400B59F28 /* IconName1@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9565AC0E2B83BB3400B59F28 /* IconName1@3x.png */; };
+		9565AC122B83BB3400B59F28 /* IconName2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9565AC0F2B83BB3400B59F28 /* IconName2@3x.png */; };
 		95B8447C2B45D9C700561447 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B8447B2B45D9C700561447 /* AppDelegate.swift */; };
 		95B8447E2B45D9C700561447 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B8447D2B45D9C700561447 /* SceneDelegate.swift */; };
 		95B844802B45D9C700561447 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B8447F2B45D9C700561447 /* ViewController.swift */; };
 		95B844832B45D9C700561447 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95B844812B45D9C700561447 /* Main.storyboard */; };
 		95B844852B45D9C900561447 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95B844842B45D9C900561447 /* Assets.xcassets */; };
 		95B844882B45D9C900561447 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95B844862B45D9C900561447 /* LaunchScreen.storyboard */; };
+		95B844902B45DB5B00561447 /* AlternativeIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B8448F2B45DB5B00561447 /* AlternativeIcon.swift */; };
+		95B844922B45DEB900561447 /* alternativeIcons.json in Resources */ = {isa = PBXBuildFile; fileRef = 95B844912B45DEB900561447 /* alternativeIcons.json */; };
+		95B844942B45DF2A00561447 /* JSONReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B844932B45DF2A00561447 /* JSONReader.swift */; };
+		95B844972B45E02F00561447 /* Icon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B844962B45E02F00561447 /* Icon.swift */; };
+		95B8449A2B45E19700561447 /* DateConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B844992B45E19700561447 /* DateConverter.swift */; };
+		95EE7DAC2B45EE960073C9B9 /* IconName3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 95EE7DA92B45EE960073C9B9 /* IconName3@2x.png */; };
+		95EE7DAD2B45EE960073C9B9 /* IconName1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 95EE7DAA2B45EE960073C9B9 /* IconName1@2x.png */; };
+		95EE7DAE2B45EE960073C9B9 /* IconName2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 95EE7DAB2B45EE960073C9B9 /* IconName2@2x.png */; };
+		95EE7DB02B45F1F80073C9B9 /* BlankViewControllerTransitioningDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EE7DAF2B45F1F80073C9B9 /* BlankViewControllerTransitioningDelegate.swift */; };
+		95EE7DB22B45F21D0073C9B9 /* BlankPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EE7DB12B45F21D0073C9B9 /* BlankPresentationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9565AC0D2B83BB3400B59F28 /* IconName3@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "IconName3@3x.png"; sourceTree = "<group>"; };
+		9565AC0E2B83BB3400B59F28 /* IconName1@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "IconName1@3x.png"; sourceTree = "<group>"; };
+		9565AC0F2B83BB3400B59F28 /* IconName2@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "IconName2@3x.png"; sourceTree = "<group>"; };
 		95B844782B45D9C700561447 /* DynamicAppIcon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DynamicAppIcon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		95B8447B2B45D9C700561447 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		95B8447D2B45D9C700561447 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +40,16 @@
 		95B844842B45D9C900561447 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		95B844872B45D9C900561447 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		95B844892B45D9C900561447 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95B8448F2B45DB5B00561447 /* AlternativeIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlternativeIcon.swift; sourceTree = "<group>"; };
+		95B844912B45DEB900561447 /* alternativeIcons.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = alternativeIcons.json; sourceTree = "<group>"; };
+		95B844932B45DF2A00561447 /* JSONReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONReader.swift; sourceTree = "<group>"; };
+		95B844962B45E02F00561447 /* Icon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Icon.swift; sourceTree = "<group>"; };
+		95B844992B45E19700561447 /* DateConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateConverter.swift; sourceTree = "<group>"; };
+		95EE7DA92B45EE960073C9B9 /* IconName3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "IconName3@2x.png"; sourceTree = "<group>"; };
+		95EE7DAA2B45EE960073C9B9 /* IconName1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "IconName1@2x.png"; sourceTree = "<group>"; };
+		95EE7DAB2B45EE960073C9B9 /* IconName2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "IconName2@2x.png"; sourceTree = "<group>"; };
+		95EE7DAF2B45F1F80073C9B9 /* BlankViewControllerTransitioningDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlankViewControllerTransitioningDelegate.swift; sourceTree = "<group>"; };
+		95EE7DB12B45F21D0073C9B9 /* BlankPresentationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlankPresentationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +82,12 @@
 		95B8447A2B45D9C700561447 /* DynamicAppIcon */ = {
 			isa = PBXGroup;
 			children = (
+				95B844A82B45EE2500561447 /* Icons */,
+				95B844952B45E01900561447 /* Helper */,
+				95B844912B45DEB900561447 /* alternativeIcons.json */,
 				95B8447B2B45D9C700561447 /* AppDelegate.swift */,
 				95B8447D2B45D9C700561447 /* SceneDelegate.swift */,
+				95B8448F2B45DB5B00561447 /* AlternativeIcon.swift */,
 				95B8447F2B45D9C700561447 /* ViewController.swift */,
 				95B844812B45D9C700561447 /* Main.storyboard */,
 				95B844842B45D9C900561447 /* Assets.xcassets */,
@@ -65,6 +95,31 @@
 				95B844892B45D9C900561447 /* Info.plist */,
 			);
 			path = DynamicAppIcon;
+			sourceTree = "<group>";
+		};
+		95B844952B45E01900561447 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				95B844932B45DF2A00561447 /* JSONReader.swift */,
+				95B844962B45E02F00561447 /* Icon.swift */,
+				95B844992B45E19700561447 /* DateConverter.swift */,
+				95EE7DAF2B45F1F80073C9B9 /* BlankViewControllerTransitioningDelegate.swift */,
+				95EE7DB12B45F21D0073C9B9 /* BlankPresentationController.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		95B844A82B45EE2500561447 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				95EE7DAA2B45EE960073C9B9 /* IconName1@2x.png */,
+				95EE7DAB2B45EE960073C9B9 /* IconName2@2x.png */,
+				95EE7DA92B45EE960073C9B9 /* IconName3@2x.png */,
+				9565AC0E2B83BB3400B59F28 /* IconName1@3x.png */,
+				9565AC0F2B83BB3400B59F28 /* IconName2@3x.png */,
+				9565AC0D2B83BB3400B59F28 /* IconName3@3x.png */,
+			);
+			path = Icons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +180,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95EE7DAC2B45EE960073C9B9 /* IconName3@2x.png in Resources */,
+				95B844922B45DEB900561447 /* alternativeIcons.json in Resources */,
+				95EE7DAE2B45EE960073C9B9 /* IconName2@2x.png in Resources */,
+				9565AC102B83BB3400B59F28 /* IconName3@3x.png in Resources */,
 				95B844882B45D9C900561447 /* LaunchScreen.storyboard in Resources */,
+				95EE7DAD2B45EE960073C9B9 /* IconName1@2x.png in Resources */,
+				9565AC122B83BB3400B59F28 /* IconName2@3x.png in Resources */,
 				95B844852B45D9C900561447 /* Assets.xcassets in Resources */,
+				9565AC112B83BB3400B59F28 /* IconName1@3x.png in Resources */,
 				95B844832B45D9C700561447 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,6 +200,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95EE7DB22B45F21D0073C9B9 /* BlankPresentationController.swift in Sources */,
+				95B8449A2B45E19700561447 /* DateConverter.swift in Sources */,
+				95B844972B45E02F00561447 /* Icon.swift in Sources */,
+				95B844902B45DB5B00561447 /* AlternativeIcon.swift in Sources */,
+				95B844942B45DF2A00561447 /* JSONReader.swift in Sources */,
+				95EE7DB02B45F1F80073C9B9 /* BlankViewControllerTransitioningDelegate.swift in Sources */,
 				95B844802B45D9C700561447 /* ViewController.swift in Sources */,
 				95B8447C2B45D9C700561447 /* AppDelegate.swift in Sources */,
 				95B8447E2B45D9C700561447 /* SceneDelegate.swift in Sources */,
@@ -288,8 +356,10 @@
 		95B8448D2B45D9C900561447 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_ALTERNATE_APPICON_NAMES = "";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = DX48L28NVW;
@@ -316,8 +386,10 @@
 		95B8448E2B45D9C900561447 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_ALTERNATE_APPICON_NAMES = "";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = DX48L28NVW;

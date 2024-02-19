@@ -1,0 +1,17 @@
+[
+    {
+        "startDate": "01/02/2024",
+        "endDate": "02/02/2024",
+        "iconName": "Icon1"
+    },
+    {
+        "startDate": "03/01/2024",
+        "endDate": "04/01/2024",
+        "iconName": "Icon3"
+    },
+    {
+         "startDate": "01/04/2024",
+        "endDate": "02/04/2024",
+        "iconName": "Icon3"
+    },
+]

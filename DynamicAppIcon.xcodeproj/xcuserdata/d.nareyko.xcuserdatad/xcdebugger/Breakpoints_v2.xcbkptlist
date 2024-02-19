@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "4BC87B54-9278-40ED-887E-32741AC84E42"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6FEB35F9-0A2E-47CC-A2E7-2E316CD01E38"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DynamicAppIcon/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "changeAppIcon(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "6FEB35F9-0A2E-47CC-A2E7-2E316CD01E38 - 1eb0258b4eebd38a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DynamicAppIcon.ViewController.changeAppIcon(Swift.Optional&lt;Swift.String&gt;) -&gt; ()"
+                  moduleName = "DynamicAppIcon"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/d.nareyko/Desktop/DynamicAppIcon/DynamicAppIcon/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "203">
+               </Location>
+               <Location
+                  uuid = "6FEB35F9-0A2E-47CC-A2E7-2E316CD01E38 - 1eb0258b4eebd38a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DynamicAppIcon.ViewController.changeAppIcon(Swift.Optional&lt;Swift.String&gt;) -&gt; ()"
+                  moduleName = "DynamicAppIcon"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/d.nareyko/Desktop/DynamicAppIcon/DynamicAppIcon/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "93">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

@@ -1,10 +1,3 @@
-//
-//  AppDelegate.swift
-//  DynamicAppIcon
-//
-//  Created by Nareyko, Diana on 3.01.24.
-//
-
 import UIKit
 
 @main
