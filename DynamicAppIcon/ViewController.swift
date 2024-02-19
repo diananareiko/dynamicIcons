@@ -1,16 +1,16 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
     private enum Constants {
         static let jsonName = "alternativeIcons"
     }
     
     private lazy var blankViewControllerTransitioningDelegate = BlankViewControllerTransitioningDelegate()
-
+    
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-
+        
         let icons = JSONReader<[Icon]>().loadJson(filename: Constants.jsonName)
         let icon = findIconConfigForDate(icons)
         DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
@@ -18,7 +18,7 @@ class ViewController: UIViewController {
         }
         self.changeAppIcon("IconName3")
     }
-
+    
     private func findIconConfigForDate(_ icons: [Icon]?) -> Icon? {
         icons?.first(where: { icon in
             let todayDate = Date()
@@ -31,15 +31,14 @@ class ViewController: UIViewController {
     }
     
     func changeAppIcon(_ iconName: String?) {
-        UIApplication.shared.setAlternateIconName(iconName)
-//        if UIApplication.shared.supportsAlternateIcons {
-//            let blankViewController = UIViewController()
-//            blankViewController.modalPresentationStyle = .custom
-//            blankViewController.transitioningDelegate = blankViewControllerTransitioningDelegate
-//            present(blankViewController, animated: false, completion: { [weak self] in
-//                UIApplication.shared.setAlternateIconName(iconName)
-//                self?.dismiss(animated: false, completion: nil)
-//            })
-//        }
+        if UIApplication.shared.supportsAlternateIcons {
+            let blankViewController = UIViewController()
+            blankViewController.modalPresentationStyle = .custom
+            blankViewController.transitioningDelegate = blankViewControllerTransitioningDelegate
+            present(blankViewController, animated: false, completion: { [weak self] in
+                UIApplication.shared.setAlternateIconName(iconName)
+                self?.dismiss(animated: false, completion: nil)
+            })
+        }
     }
 }
