@@ -16,7 +16,6 @@ class ViewController: UIViewController {
         DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
             self.changeAppIcon(icon?.iconName)
         }
-        self.changeAppIcon("IconName3")
     }
     
     private func findIconConfigForDate(_ icons: [Icon]?) -> Icon? {
